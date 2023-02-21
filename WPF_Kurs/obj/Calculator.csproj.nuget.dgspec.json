@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\WPF_Kurs\\Wpf_Kurs\\Wpf_Kurs.csproj": {}
+    "C:\\Projects\\WPF_Kurs\\Wpf_Kurs\\Calculator.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\WPF_Kurs\\Wpf_Kurs\\Wpf_Kurs.csproj": {
+    "C:\\Projects\\WPF_Kurs\\Wpf_Kurs\\Calculator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\WPF_Kurs\\Wpf_Kurs\\Wpf_Kurs.csproj",
-        "projectName": "Wpf_Kurs",
-        "projectPath": "C:\\Projects\\WPF_Kurs\\Wpf_Kurs\\Wpf_Kurs.csproj",
+        "projectUniqueName": "C:\\Projects\\WPF_Kurs\\Wpf_Kurs\\Calculator.csproj",
+        "projectName": "Calculator",
+        "projectPath": "C:\\Projects\\WPF_Kurs\\Wpf_Kurs\\Calculator.csproj",
         "packagesPath": "C:\\Users\\wikto\\.nuget\\packages\\",
         "outputPath": "C:\\Projects\\WPF_Kurs\\Wpf_Kurs\\obj\\",
         "projectStyle": "PackageReference",
