@@ -4,6 +4,24 @@
              xmlns:local="clr-namespace:Wpf_Kurs"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <SolidColorBrush x:Key="numbersColor" Color="#333333"/>
+        <SolidColorBrush x:Key="operatorsColor" Color="DarkOrange"/>
+        <SolidColorBrush x:Key="foregroundColor" Color="White"/>
+
+        <Style TargetType="Button" x:Key="defaultButtonStyle">
+            <Setter Property="Foreground" Value="{StaticResource foregroundColor}"/>
+            <Setter Property="FontSize" Value="25"/>
+            <Setter Property="Margin" Value="5"/>
+        </Style>
+        
+        <Style TargetType="Button" x:Key="numberButtonStyle" BasedOn="{StaticResource defaultButtonStyle}">
+            <Setter Property="Background" Value="{StaticResource numbersColor}"/>
+        </Style>
+        
+        <Style TargetType="Button" x:Key="operatorButtonStyle" BasedOn="{StaticResource defaultButtonStyle}">
+            <Setter Property="Background" Value="{StaticResource operatorsColor}"/>
+        </Style>
+
+
     </Application.Resources>
 </Application>
